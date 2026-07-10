@@ -1,15 +1,23 @@
-Welcome to your new dbt project!
+# Northwind DW DuckDB
 
-### Using the starter project
+## Folder Structure
 
-Try running the following commands:
-- dbt run
-- dbt test
+```text
+northwind_dw_duckdb/
+├── analyses/
+├── logs/
+├── macros/
+├── models/
+│   └── example/
+│       ├── my_first_dbt_model.sql
+│       ├── my_second_dbt_model.sql
+│       └── schema.yml
+├── seeds/
+├── snapshots/
+├── tests/
+├── dbt_project.yml
+├── README.md
+└── dev.duckdb
+```
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This project contains the dbt project files and DuckDB database used for the Northwind data warehouse.
