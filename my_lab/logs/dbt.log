@@ -1,0 +1,31 @@
+[0m04:38:23.345122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73819d06d6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73819e4f59a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73819d454fe0>]}
+
+
+============================== 04:38:23.354232 | 85be6eb1-fc4b-4545-ad82-c47bda819313 ==============================
+[0m04:38:23.354232 [info ] [MainThread]: Running with dbt=1.11.12
+[0m04:38:23.355330 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'warn_error': 'None', 'cache_selected_only': 'False', 'debug': 'False', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'log_path': 'logs', 'static_parser': 'True', 'write_json': 'True', 'partial_parse': 'True', 'profiles_dir': '/home/codespace/.dbt', 'invocation_command': 'dbt init nortwind_dw_duckdb', 'no_print': 'None', 'log_cache_events': 'False', 'log_format': 'default', 'empty': 'None', 'target_path': 'None', 'use_colors': 'True', 'indirect_selection': 'eager', 'fail_fast': 'False', 'introspect': 'True'}
+[0m04:38:23.372128 [info ] [MainThread]: Creating dbt configuration folder at /home/codespace/.dbt
+[0m04:38:23.374681 [debug] [MainThread]: Starter project path: /workspaces/DW_lab_6730202621/my_project/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m04:38:23.384319 [info ] [MainThread]: 
+Your new dbt project "nortwind_dw_duckdb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m04:38:23.385839 [info ] [MainThread]: Setting up your profile.
+[0m04:38:46.119989 [info ] [MainThread]: Profile nortwind_dw_duckdb written to /home/codespace/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m04:38:46.122505 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 22.858576, "process_in_blocks": "79280", "process_kernel_time": 0.228863, "process_mem_max_rss": "137688", "process_out_blocks": "80", "process_user_time": 1.900264}
+[0m04:38:46.123193 [debug] [MainThread]: Command `dbt init` succeeded at 04:38:46.123073 after 22.86 seconds
+[0m04:38:46.123819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73819c9f1be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73819cf6b320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73819c7c2ff0>]}
+[0m04:38:46.124533 [debug] [MainThread]: Flushing usage events
+[0m04:38:47.255478 [debug] [MainThread]: An error was encountered while trying to flush usage events
