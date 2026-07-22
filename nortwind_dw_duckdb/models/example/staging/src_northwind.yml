@@ -1,0 +1,69 @@
+version: 2
+
+sources:
+  - name: northwind # The name of the source, used to reference this source in dbt models
+    schema: main # The schema(dataset name) to which the source belongs. main is the default schema for DuckDB
+    description: "Raw flat files queried directly from the local workspace folder"
+    meta: # Additional metadata for the source
+      # {name} is a placeholder that automatically injects the table names listed below
+      external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/customer.csv'
+    tables:
+      - name: customer                  # Maps straight to datasets/customer.csv
+        description: "Customer data from the Northwind dataset"
+
+      - name: employee_privileges
+        description: Employee privileges table
+
+      - name: employees
+        description: Employees table
+
+      - name: inventory_transaction_types
+        description: Inventory transaction types
+
+      - name: inventory_transactions
+        description: Inventory transactions
+
+      - name: invoices
+        description: Invoices table
+
+      - name: order_details_status
+        description: Order details status
+
+      - name: order_details
+        description: Order details
+
+      - name: orders_status
+        description: Orders status
+
+      - name: orders_tax_status
+        description: Orders tax status
+
+      - name: orders
+        description: Orders table
+
+      - name: privileges
+        description: Privileges table
+
+      - name: products
+        description: Products table
+
+      - name: purchase_order_details
+        description: Purchase order details
+
+      - name: purchase_order_status
+        description: Purchase order status
+
+      - name: purchase_orders
+        description: Purchase orders
+
+      - name: sales_reports
+        description: Sales reports
+
+      - name: shippers
+        description: Shippers table
+
+      - name: strings
+        description: Strings table
+
+      - name: suppliers
+        description: Suppliers table
