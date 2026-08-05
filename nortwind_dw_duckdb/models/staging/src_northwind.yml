@@ -8,62 +8,102 @@ sources:
       # {name} is a placeholder that automatically injects the table names listed below
       external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/customer.csv'
     tables:
-      - name: customer                  # Maps straight to datasets/customer.csv
+      - name: customer
         description: "Customer data from the Northwind dataset"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/customer.csv'
 
       - name: employee_privileges
-        description: Employee privileges table
+        description: "Employee privileges table"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/employee_privileges.csv'
 
       - name: employees
-        description: Employees table
+        description: "Employees table"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/employees.csv'
 
       - name: inventory_transaction_types
-        description: Inventory transaction types
+        description: "Inventory transaction types"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/inventory_transaction_types.csv'
 
       - name: inventory_transactions
-        description: Inventory transactions
+        description: "Inventory transactions"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/inventory_transactions.csv'
 
       - name: invoices
-        description: Invoices table
+        description: "Invoices table"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/invoices.csv'
 
       - name: order_details_status
-        description: Order details status
+        description: "Order details status"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/order_details_status.csv'
 
       - name: order_details
-        description: Order details
+        description: "Order details"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/order_details.csv'
 
       - name: orders_status
-        description: Orders status
+        description: "Orders status"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/orders_status.csv'
 
       - name: orders_tax_status
-        description: Orders tax status
+        description: "Orders tax status"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/orders_tax_status.csv'
 
       - name: orders
-        description: Orders table
+        description: "Orders table"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/orders.csv'
 
       - name: privileges
-        description: Privileges table
+        description: "Privileges table"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/privileges.csv'
 
       - name: products
-        description: Products table
+        description: "Products table"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/products.csv'
 
       - name: purchase_order_details
-        description: Purchase order details
+        description: "Purchase order details"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/purchase_order_details.csv'
 
       - name: purchase_order_status
-        description: Purchase order status
+        description: "Purchase order status"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/purchase_order_status.csv'
 
       - name: purchase_orders
-        description: Purchase orders
+        description: "Purchase orders"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/purchase_orders.csv'
 
       - name: sales_reports
-        description: Sales reports
+        description: "Sales reports"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/sales_reports.csv'
 
       - name: shippers
-        description: Shippers table
+        description: "Shippers table"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/shippers.csv'
 
       - name: strings
-        description: Strings table
+        description: "Strings table"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/strings.csv'
 
       - name: suppliers
-        description: Suppliers table
+        description: "Suppliers table"
+        meta:
+          external_location: '/workspaces/DW_lab_6730202621/nortwind_dw_duckdb/dataset/suppliers.csv'
